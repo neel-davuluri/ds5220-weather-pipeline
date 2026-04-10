@@ -9,4 +9,3 @@ A Kubernetes CronJob runs `collect.py` once per hour. On each run, the script fe
 ## Output
 - **plot.png** — a 4-panel time-series chart showing temperature (°F), wind speed (mph), precipitation (mm), and cloud cover (%) over the full collection window
 - **data.csv** — a flat CSV file containing all collected readings with columns: `location_id`, `timestamp`, `temp_f`, `wind_mph`, `precip_mm`, `cloud_pct`
-EOF
